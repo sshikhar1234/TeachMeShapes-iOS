@@ -97,6 +97,7 @@ class ViewController: UIViewController {
                         DispatchQueue.main.async {
                             self.labelLog.text = "INCCORRECT!"
                         }
+                        }
                     }
                     else if choice == "4" {
                         if self.randomInt == 0 {
