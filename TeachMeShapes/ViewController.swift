@@ -93,6 +93,7 @@ class ViewController: UIViewController {
                             }
                             self.flag = "CORRECT!"
                         }
+                        else{
                         DispatchQueue.main.async {
                             self.labelLog.text = "INCCORRECT!"
                         }
